@@ -1,4 +1,4 @@
-# Gem_Wordle
+# Wordle
 Данный гем предназначен для реализации логики игры Worlde
 
 ## Installation
