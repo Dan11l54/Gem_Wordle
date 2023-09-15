@@ -8,10 +8,10 @@
 
 ## Usage
 В данный гем состоит из `module Wordle`, в котором определены все исключения:
-  `class WordleError`
-  `class WrongAttemptsNumberError < WordleError`
-  `class WrongLengthError < WordleError`
-  `class NoMatchInDB < WordleError`
+*  `class WordleError`
+*  `class WrongAttemptsNumberError < WordleError`
+*  `class WrongLengthError < WordleError`
+*  `class NoMatchInDB < WordleError`
 
 и главный класс `GameRound`.
 
@@ -37,9 +37,9 @@
 
 
  где 
-  `:gray` - буквы в ответе нет
-  `:yellow` - буква есть,но она стоит не на своём месте
-   `:green` - буква стоит на своём месте
+ * `:gray` - буквы в ответе нет
+ * `:yellow` - буква есть,но она стоит не на своём месте
+ *  `:green` - буква стоит на своём месте
 
 Кроме возвращаемого значения, этот метод выводит на коснсоль слово, буквы которого разукрашены в соотвествующие цвета. Например: ${\color{grey}d\color{green}a\color{grey}r\color{yellow}k}$
 
